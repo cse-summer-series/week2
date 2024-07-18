@@ -5,6 +5,12 @@ The starter code is a cleaned up version from the videos:
 - [Inspecting Character Data](https://youtu.be/e8jaxN9EBZQ)
 - [Working with UTF-8](https://youtu.be/M604Z8OaSgo)
 
+The documentation links from the videos are here:
+
+- https://en.wikipedia.org/wiki/UTF-8
+- https://www.compart.com/en/unicode/U+00E9
+- https://www.compart.com/en/unicode/U+674E
+
 The task for this week is to fill in the function `bytes_for(char* unicode, unsigned int n)`.
 
 That function should take a UTF-8 string and a character count, and return the number of *bytes* in that UTF-8 string taken up by the first `n` characters.
